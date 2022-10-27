@@ -1,4 +1,137 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #101010;
+}
+
+button#play {
+  width: 75px;
+  border-radius: 50px;
+  margin-left: 25px;
+}
+
+button:hover {
+  background-color:  #baffff;
+}
+
+#main {
+  width: 625px;
+  height: 125px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #303030;
+}
+
+#titleHeader1 {
+  width: 625px;
+  height: 37.5px;
+  margin: auto;
+  /*border: 1px solid yellow;*/
+  text-align: center;
+}
+
+#titleHeader2 {
+  width: 225px;
+  /*border: 1px solid red;*/
+  text-align: center;
+  margin: auto;
+}
+
+
+#title {
+  display: inline;
+  width: 169px;
+  margin-block: 0px;
+  margin: 0px;
+  color: #e6ffff;
+}
+
+#instructions {
+  float: right;
+  margin-left: 25px;
+  height: 37.5px;
+}
+
+button {
+  height: 75px;
+  border-radius: 25px;
+  background-color: #e6ffff;
+}
+
+select {
+  float: left;
+  width: 75px;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #303030;
+  background-color: #e6ffff;
+}
+
+#selectors {
+  float: left;
+  width: 625px;
+  height: 75px;
+}
+
+#score {
+  float: right;
+  width: 200px;
+}
+
+
+.r {
+  background-color: red;
+}
+.o {
+  background-color: orange;
+}
+.y {
+  background-color: gold;
+}
+.g {
+  background-color: green;
+}
+.c {
+  background-color: cyan;
+}
+.v {
+  background-color: violet;
+}
+
+.b {
+  background-color: #303030;
+}
+.w {
+  background-color: white;
+}
+
+ol {
+  list-style-type: none;
+  float: left;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+ol li ul li {
+  display: block;
+  list-style-type: none;
+  padding: 36.5px;
+  margin-left: 0px;
+  border-radius: 10px;
+  border: 1px solid	black;
+  text-decoration: none;
 }
