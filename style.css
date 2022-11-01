@@ -16,7 +16,7 @@ button:hover {
 
 #main {
   width: 625px;
-  height: 125px;
+  float: left;
   margin: auto;
   padding: 25px;
   border-radius: 25px;
