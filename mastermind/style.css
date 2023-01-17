@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+}
+
+button#play {
+  width: 75px;
+  border-radius: 50px;
+  margin-left: 25px;
+}
+
+button:hover {
+  background-color:  #baffff;
+}
+
+#main {
+  width: 625px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  float: left;
+  background-color: #afb6b6
+  /*background-color: #555555;
+  e6ffff
+  background-image: url("tile.webp");
+  background-repeat: both;*/
+}
+
+#titleHeader1 {
+  width: 625px;
+  height: 37.5px;
+  margin: auto;
+  /*border: 1px solid yellow;*/
+  text-align: center;
+}
+
+#titleHeader2 {
+  width: 225px;
+  /*border: 1px solid red;*/
+  text-align: center;
+  margin: auto;
+}
+
+
+#title {
+  display: inline;
+  width: 169px;
+  margin-block: 0px;
+  margin: 0px;
+  color: black;
+}
+
+#instructions {
+  float: right;
+  margin-left: 25px;
+  height: 37.5px;
+}
+
+button {
+  height: 75px;
+  border-radius: 25px;
+  background-color: #e6ffff;
+}
+
+select {
+  float: left;
+  width: 75px;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #303030;
+  background-color: #e6ffff;
+  text-align: center;
+}
+
+#selectors {
+  float: left;
+  width: 625px;
+  height: 75px;
+}
+
+#score {
+  float: right;
+  width: 200px;
+}
+
+
+.r {
+  background-color: #d22d2d;
+}
+.o {
+  background-color: #fa9938;
+}
+.y {
+  background-color: gold;
+}
+.g {
+  background-color: green;
+}
+.c {
+  background-color: #13ecec;
+}
+.v {
+  background-color: #ec13ec;
+}
+
+.b {
+  background-color: #303030;
+  border: 1px solid	#dfe9e8;
+}
+.w {
+  background-color: white;
+  border: 1px solid	black;
+}
+
+ol {
+  list-style-type: none;
+  float: left;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+ol li ul li {
+  display: block;
+  list-style-type: none;
+  padding: 36.5px;
+  margin-left: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid	black;
+}
