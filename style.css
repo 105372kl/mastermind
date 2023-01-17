@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #101010;
+  background-color: #303030;
 }
 
 button#play {
@@ -16,11 +16,15 @@ button:hover {
 
 #main {
   width: 625px;
-  float: left;
   margin: auto;
   padding: 25px;
   border-radius: 25px;
-  background-color: #303030;
+  float: left;
+  background-color: #afb6b6
+  /*background-color: #555555;
+  e6ffff
+  background-image: url("tile.webp");
+  background-repeat: both;*/
 }
 
 #titleHeader1 {
@@ -44,7 +48,7 @@ button:hover {
   width: 169px;
   margin-block: 0px;
   margin: 0px;
-  color: #e6ffff;
+  color: black;
 }
 
 #instructions {
@@ -66,6 +70,7 @@ select {
   border-radius: 10px;
   border-color: #303030;
   background-color: #e6ffff;
+  text-align: center;
 }
 
 #selectors {
@@ -81,10 +86,10 @@ select {
 
 
 .r {
-  background-color: red;
+  background-color: #d22d2d;
 }
 .o {
-  background-color: orange;
+  background-color: #fa9938;
 }
 .y {
   background-color: gold;
@@ -93,17 +98,19 @@ select {
   background-color: green;
 }
 .c {
-  background-color: cyan;
+  background-color: #13ecec;
 }
 .v {
-  background-color: violet;
+  background-color: #ec13ec;
 }
 
 .b {
   background-color: #303030;
+  border: 1px solid	#dfe9e8;
 }
 .w {
   background-color: white;
+  border: 1px solid	black;
 }
 
 ol {
@@ -132,6 +139,6 @@ ol li ul li {
   padding: 36.5px;
   margin-left: 0px;
   border-radius: 10px;
-  border: 1px solid	black;
   text-decoration: none;
+  border: 1px solid	black;
 }
