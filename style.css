@@ -71,6 +71,7 @@ select {
   border-color: #303030;
   background-color: #e6ffff;
   text-align: center;
+  font-size: 2em;
 }
 
 #selectors {
@@ -118,6 +119,8 @@ ol {
   float: left;
   padding-left: 0px;
   margin-left: 0px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 ul {
