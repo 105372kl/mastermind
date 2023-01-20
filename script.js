@@ -47,6 +47,7 @@ function win() {
     scoreTotal += score[i];
   }
   let avgScore = scoreTotal / score.length;
+  avgScore = Math.round(avgScore * 100) / 100;
   let scoreDisplay = document.getElementById("score");
   scoreDisplay.innerHTML = "Average Score: <br>" + avgScore;
   let turnButton = document.getElementById("play");
